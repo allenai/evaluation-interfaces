@@ -12,7 +12,7 @@ This is repository is a WiP. More interfaces will be added and contributing guid
 
 ## Getting started
 Clone this repository, install python>=3.6, and run
-- `pip install requirements.txt`
+- `pip install -r requirements.txt`
 
 ## Previewing an evaluation template
 1. Obtain a model predictions file for the target dataset. To generate a sample `$DATASET-sample.json` predictions file, run `python src/make_sample_predictions --dataset $DATASET`.
