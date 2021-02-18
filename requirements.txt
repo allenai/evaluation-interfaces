@@ -1,0 +1,3 @@
+datasets
+git+https://github.com/allenai/amti#egg=amti
+click
