@@ -1,0 +1,48 @@
+{
+    "AutoApprovalDelayInSeconds": 86400,
+    "AssignmentDurationInSeconds": 3600,
+    "Reward": "0.4",
+    "Title": "Judge the quality of paragraph summaries",
+    "Keywords": "HTMLQuestion, NLP, summary, summarization, reading",
+    "Description": "Answer a few multiple-choice questions about the quality of 2 summaries of an article",
+    "QualificationRequirements": [
+        {
+            "QualificationTypeId": "00000000000000000040",
+            "Comparator": "GreaterThanOrEqualTo",
+            "IntegerValues": [
+                10000
+            ],
+            "RequiredToPreview": false,
+            "ActionsGuarded": "Accept"
+        },
+        {
+            "QualificationTypeId": "000000000000000000L0",
+            "Comparator": "GreaterThanOrEqualTo",
+            "IntegerValues": [
+                99
+            ],
+            "RequiredToPreview": false,
+            "ActionsGuarded": "Accept"
+        },
+        {
+            "QualificationTypeId": "00000000000000000071",
+            "Comparator": "In",
+            "LocaleValues": [
+                {
+                    "Country": "US"
+                },
+                {
+                    "Country": "GB"
+                },
+                {
+                    "Country": "AU"
+                },
+                {
+                    "Country": "CA"
+                }
+            ],
+            "RequiredToPreview": false,
+            "ActionsGuarded": "Accept"
+        }
+    ]
+}
